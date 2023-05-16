@@ -19,19 +19,25 @@
 12. Se agrega `newNode` a `treeQueue` para realizar un seguimiento del nuevo nodo.
 13. Por último, se devuelve el valor del nodo padre. Esto cumple con el requisito de la tarea de retornar el valor del padre del nodo insertado.
 
+![image](https://github.com/carl0s25/TallerEstructurasdeDatosAvanzadas/assets/89582094/07e180f0-9893-4f98-bab6-d03c929436ce)
+
+
 ------------------------------------------
 
 - Binary Tree Inorder Traversal
-15.	La función inorderTraversal recibe el nodo raíz de un árbol binario.
-16.	Se crea un vector result que almacenará el recorrido inorder de los valores de los nodos.
-17.	Se crea una pila nodeStack que se utilizará para realizar un seguimiento de los nodos durante el recorrido.
-18.	Se inicializa un puntero current con el nodo raíz.
-19.	Se inicia un bucle principal que se ejecutará mientras el nodo actual no sea nulo o la pila no esté vacía.
-20.	Dentro del bucle principal, se inicia un bucle interno para recorrer todos los nodos a la izquierda del nodo actual y se van apilando en nodeStack.
-21.	Se extrae el nodo superior de la pila (current) y se guarda su valor en el vector result.
-22.	Se actualiza el puntero current al hijo derecho del nodo extraído.
-23.	El bucle principal continúa hasta que se hayan procesado todos los nodos en el recorrido inorder.
-24.	Finalmente, se devuelve el vector result que contiene los valores de los nodos en el orden correcto del recorrido inorder del árbol binario.
+1.	La función inorderTraversal recibe el nodo raíz de un árbol binario.
+2.	Se crea un vector result que almacenará el recorrido inorder de los valores de los nodos.
+3.	Se crea una pila nodeStack que se utilizará para realizar un seguimiento de los nodos durante el recorrido.
+4.	Se inicializa un puntero current con el nodo raíz.
+5.	Se inicia un bucle principal que se ejecutará mientras el nodo actual no sea nulo o la pila no esté vacía.
+6.	Dentro del bucle principal, se inicia un bucle interno para recorrer todos los nodos a la izquierda del nodo actual y se van apilando en nodeStack.
+7.	Se extrae el nodo superior de la pila (current) y se guarda su valor en el vector result.
+8.	Se actualiza el puntero current al hijo derecho del nodo extraído.
+9.	El bucle principal continúa hasta que se hayan procesado todos los nodos en el recorrido inorder.
+10.	Finalmente, se devuelve el vector result que contiene los valores de los nodos en el orden correcto del recorrido inorder del árbol binario.
+
+![image](https://github.com/carl0s25/TallerEstructurasdeDatosAvanzadas/assets/89582094/959fd8d6-0ced-408d-90e3-801566b5dc1d)
+![image](https://github.com/carl0s25/TallerEstructurasdeDatosAvanzadas/assets/89582094/77421d4d-7a64-481f-9359-2b4c8a094867)
 
 ------------------------------------------
 
