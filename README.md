@@ -68,3 +68,20 @@
 6.	El bucle continúa hasta que se encuentre el nodo de destino o hasta que se hayan examinado todos los nodos en el árbol original.
 7.	Si no se encuentra el nodo de destino después de examinar todos los nodos, se devuelve un puntero nulo.
 
+------------------------------------------
+
+- Find if Path Exists in Graph
+1.	Se define la clase Solution que contiene la función validPath que se encargará de determinar si existe un camino válido desde el vértice de origen al vértice de destino.
+2.	La función validPath recibe como parámetros el número de vértices n, las aristas representadas como una matriz 2D edges, el vértice de origen source y el vértice de destino destination.
+3.	Se crea una lista de adyacencia adjList de tamaño n para representar el grafo. Cada índice de la lista de adyacencia corresponderá a un vértice y almacenará los vértices adyacentes a él.
+4.	Se itera sobre cada arista en edges. Para cada arista [u, v], se agrega v a la lista de adyacencia de u y u a la lista de adyacencia de v. Esto se hace para representar la conexión bidireccional entre los vértices.
+5.	Se crea un vector visited de tamaño n para marcar los vértices visitados. Inicialmente, todos los vértices se marcan como no visitados (false).
+6.	Se realiza una llamada a la función dfs para iniciar la búsqueda en profundidad desde el vértice de origen hacia el vértice de destino.
+7.	La función dfs es una función recursiva que realiza la búsqueda en profundidad. Recibe como parámetros el vértice actual curr, el vértice de destino destination, la lista de adyacencia adjList y el vector visited para realizar el seguimiento de los vértices visitados.
+8.	Se marca el vértice actual curr como visitado estableciendo visited[curr] en true.
+9.	Se comprueba si se alcanzó el vértice de destino. Si curr es igual a destination, esto significa que se encontró un camino válido y se devuelve true.
+10.	Se itera sobre los vértices adyacentes a curr en la lista de adyacencia.
+11.	Para cada vértice adyacente neighbor, se verifica si aún no ha sido visitado (!visited[neighbor]). Si es así, se realiza una llamada recursiva a dfs pasando neighbor como el nuevo vértice actual.
+12.	Si se encuentra un camino válido en alguna de las llamadas recursivas, se devuelve true desde la función dfs.
+13.	Si se exploran todos los vértices adyacentes a curr y no se encuentra un camino válido, se devuelve false desde la función dfs.
+14.	Al finalizar la función validPath, se devuelve el resultado de la función dfs(source, destination, adjList, visited). Si devuelve true, significa que hay un camino válido desde el vértice de origen al vértice de destino. De lo contrario, se devuelve false.
