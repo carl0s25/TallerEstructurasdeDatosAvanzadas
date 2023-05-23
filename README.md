@@ -65,6 +65,10 @@
 •	Para el subárbol derecho, se establece el nodo actual como el nuevo valor mínimo permitido.
 4.	Si ambos subárboles son BST válidos, se devuelve true. De lo contrario, se devuelve false.
 
+![Screenshot 2023-05-22 230107](https://github.com/carl0s25/TallerEstructurasdeDatosAvanzadas/assets/112567186/e01b8f3e-d1ce-4432-b276-c3126670cbfc)
+![Screenshot 2023-05-22 230408](https://github.com/carl0s25/TallerEstructurasdeDatosAvanzadas/assets/112567186/22392b6f-2993-49ba-a3dc-eb0121799865)
+
+
 ------------------------------------------
 
 - Minimum Height Trees
