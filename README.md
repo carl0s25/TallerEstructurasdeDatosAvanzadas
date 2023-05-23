@@ -1,4 +1,15 @@
 # TallerEstructurasdeDatosAvanzadas
+
+## 1. Autores ![Autores](https://img.shields.io/badge/autores-blueviolet)
+
+- [@](https://github.com/)
+
+- [@](https://www.github.com/)
+
+- [@](https://www.github.com/)
+
+- [@Jhonny Guarin](https://www.github.com/JhonnyGCH)
+
 - Complete Binary Tree Inserter
 1. La clase `CBTInserter` se utiliza para insertar un nuevo nodo en un árbol binario completo y mantenerlo completo después de la inserción.
 2. En el constructor `CBTInserter`, se recibe el nodo raíz del árbol binario completo y se inicializa la cola `treeQueue` para realizar un recorrido de nivel del árbol.
@@ -109,4 +120,37 @@
 
 ![image](https://github.com/carl0s25/TallerEstructurasdeDatosAvanzadas/assets/56564351/55184eb0-d441-423b-8183-cece8c3a6477)
 
+
+------------------------------------------
+
+- Count Distinct Integers
+1.	El código en C++ cuenta la cantidad de elementos únicos en un vector de enteros utilizando un unordered_set.
+	```sh
+	#include <unordered_set>
+	```
+2.	Se define la función principal main(). El código comienza leyendo un entero n del usuario, que representa la longitud del vector a.
+	```sh
+	int main() {
+	    int n;
+	    cin >> n;
+	    vector<int> a(n);
+	    for (int i = 0; i < n; ++i)
+		cin >> a[i];
+	```
+	Luego se crea un vector a de tamaño n para almacenar los elementos. Los elementos se leen del usuario en un bucle for que itera desde 0 hasta n-1. Cada elemento se almacena en la posición correspondiente del vector a.
+
+3.	Se crea un unordered_set llamado uniqueElements para almacenar los elementos únicos. El bucle for itera sobre los elementos del vector a y los inserta en el unordered_set. Dado que unordered_set no permite elementos duplicados, solo se almacenarán los elementos únicos.
+	```sh
+	    unordered_set<int> uniqueElements;
+	    for (int i = 0; i < n; ++i)
+		uniqueElements.insert(a[i]);
+
+	```
+4.	Se utiliza uniqueElements.size() para obtener la cantidad de elementos únicos en el unordered_set y se guarda en la variable cant. Finalmente, se imprime el valor de cant, que representa la cantidad de elementos únicos en el vector a.
+	```sh
+	    int cant = uniqueElements.size();
+	    cout << cant << endl;
+	    return 0;
+	}
+	```
 
