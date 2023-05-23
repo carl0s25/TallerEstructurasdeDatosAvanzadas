@@ -10,6 +10,8 @@
 
 - [@Diego Trigos](https://www.github.com/Dtr1gos18)
 
+- [@Brayan Albarracin](https://www.github.com/Brayansat)
+
 
 ## 2. Explicación paso a paso: ![Explicación](https://img.shields.io/badge/Explicacion-green)
 
@@ -200,6 +202,53 @@
 	```sh
 	   cant = 5
 	```
+
+------------------------------------------
+
+- Exact Sum
+1.	Se define la función principal main() para la lectura continua de datos por consola, recibiendo primeramente el número de libros disponibles, luego un arreglo del precio de cada libro y por ultimo el dinero de Peter para poder comprar dos libros, el programa se encargará de retornar un string con los libros que sumados den igual al dinero de Peter y su diferencia entre ellos sea la menor de la forma:
+	- Peter should buy books whose prices are `i` and `j`.
+	```sh
+	int main() {
+		int numLibros;
+    
+     		while(scanf("%d",&numLibros)!=EOF){
+    
+      			int a[numLibros];
+      			for (int i = 0; i < numLibros; i++)
+          			scanf("%d",&a[i]);
+      			int money;
+      			scanf("%d",&money);
+	```
+2.	Se itera el arreglo de libros en busca de parejas que satisfagan la respuesta requerida preguntando si su suma es igual a `money` y si la diferencia entre sus precios sea menor a alguna previamente obtenida
+	```sh
+	for (int i = 0; i < numLibros; i++){
+        	for (int j = i+1; j < numLibros; j++){
+          		if(a[i]+a[j]==money){
+            			int dif = abs(a[i]-a[j]);
+            			if (dif<diferencia) {
+              				diferencia=dif;
+              				libroI =a[i];
+              				libroJ =a[j];
+            			}
+          		}
+        	}
+      	}
+	```
+3.	Se verifica que el libro i sea menor al libro j
+	```sh
+	if(libroI>libroJ) {
+        	int aux = libroI;
+        	libroI =libroJ;
+        	libroJ =aux;
+        }
+	```
+4.	Se imprime la respuesta.
+
+![image](https://github.com/carl0s25/TallerEstructurasdeDatosAvanzadas/assets/56564351/afaa098d-93fa-4aa1-86c2-27bef79e9994)
+
+
+
 
 ## 3. 🏛 Institución academica
 Taller realizado en la asignatura de analisis de algoritmos de [Programa de Ingeniería de sistemas] de la [Universidad Francisco de Paula Santander]
