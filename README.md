@@ -94,6 +94,8 @@
 6.	El bucle continúa hasta que se encuentre el nodo de destino o hasta que se hayan examinado todos los nodos en el árbol original.
 7.	Si no se encuentra el nodo de destino después de examinar todos los nodos, se devuelve un puntero nulo.
 
+![image](https://github.com/carl0s25/TallerEstructurasdeDatosAvanzadas/assets/56564351/50a90145-1ddc-40c8-9359-90aeb9511a99)
+
 ------------------------------------------
 
 - Find if Path Exists in Graph
