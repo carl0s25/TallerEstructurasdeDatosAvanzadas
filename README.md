@@ -2,13 +2,14 @@
 
 ## 1. Autores ![Autores](https://img.shields.io/badge/Autores-blueviolet)
 
-- [@](https://github.com/)
-
-- [@](https://www.github.com/)
-
-- [@](https://www.github.com/)
+- [@Carlos Contreras](https://github.com/carl0s25)
 
 - [@Jhonny Guarin](https://www.github.com/JhonnyGCH)
+
+- [@Oscar Bayona](https://www.github.com/OscarBayona)
+
+- [@](https://www.github.com/)
+
 
 ## 2. Explicación paso a paso: ![Explicación](https://img.shields.io/badge/Explicacion-green)
 
