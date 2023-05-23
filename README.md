@@ -158,9 +158,9 @@
 	```
 
 ## 3. 🏛 Institución academica
-Project developed in the subject Software Architecture of the [Systems Engineering Program] of the [Universidad Francisco de Paula Santander]
+Taller realizado en la asignatura de analisis de algoritmos de [Programa de Ingeniería de sistemas] de la [Universidad Francisco de Paula Santander]
 
-   [Systems Engineering Program]:<https://ingsistemas.cloud.ufps.edu.co/>
+   [Programa de Ingeniería de sistemas]:<https://ingsistemas.cloud.ufps.edu.co/>
    [Universidad Francisco de Paula Santander]:<https://ww2.ufps.edu.co/>
  
  <div align="center">
