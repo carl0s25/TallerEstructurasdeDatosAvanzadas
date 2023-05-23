@@ -156,6 +156,46 @@
 	    return 0;
 	}
 	```
+	
+5.	Supongamos que el usuario ingresa el número 8 como valor de n y luego ingresa los siguientes elementos para el vector a: 4 2 6 4 8 2 7 4.
+	```sh
+	n = 8
+	a = [4, 2, 6, 4, 8, 2, 7, 4]
+
+	```
+	Creación del unordered_set y búsqueda de elementos únicos:
+	```sh
+	   uniqueElements = {}
+
+	Iteración 1:
+	  Insertar 4 en uniqueElements: uniqueElements = {4}
+
+	Iteración 2:
+	  Insertar 2 en uniqueElements: uniqueElements = {4, 2}
+
+	Iteración 3:
+	  Insertar 6 en uniqueElements: uniqueElements = {4, 2, 6}
+
+	Iteración 4:
+	  Insertar 4 en uniqueElements (duplicado, no se agrega): uniqueElements = {4, 2, 6}
+
+	Iteración 5:
+	  Insertar 8 en uniqueElements: uniqueElements = {4, 2, 6, 8}
+
+	Iteración 6:
+	  Insertar 2 en uniqueElements (duplicado, no se agrega): uniqueElements = {4, 2, 6, 8}
+
+	Iteración 7:
+	  Insertar 7 en uniqueElements: uniqueElements = {4, 2, 6, 8, 7}
+
+	Iteración 8:
+	  Insertar 4 en uniqueElements (duplicado, no se agrega): uniqueElements = {4, 2, 6, 8, 7}
+
+	```
+	Cálculo de la cantidad de elementos únicos:
+	```sh
+	   cant = 5
+	```
 
 ## 3. 🏛 Institución academica
 Taller realizado en la asignatura de analisis de algoritmos de [Programa de Ingeniería de sistemas] de la [Universidad Francisco de Paula Santander]
