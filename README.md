@@ -91,3 +91,22 @@
 12.	Si se encuentra un camino válido en alguna de las llamadas recursivas, se devuelve true desde la función dfs.
 13.	Si se exploran todos los vértices adyacentes a curr y no se encuentra un camino válido, se devuelve false desde la función dfs.
 14.	Al finalizar la función validPath, se devuelve el resultado de la función dfs(source, destination, adjList, visited). Si devuelve true, significa que hay un camino válido desde el vértice de origen al vértice de destino. De lo contrario, se devuelve false.
+
+
+------------------------------------------
+
+- Relative Ranks
+1.	Se define la clase Solution que contiene la función `findRelativeRanks` que se encargará de retornar un arreglo con el ranking del i-ésimo atleta, siendo:
+	- Para el Primer lugar el rango "Gold Medal".
+	- Para el Segundo lugar el rango "Silver Medal".
+	- Para el Tercer lugar el rango "Bronze Medal".
+	- Para el Cuarto hasta el último lugar el rango de su puesto como número, ejemplo "4".
+2.	La función `findRelativeRanks` recibe como parámetros un vector `score` con el puntajes de cada atleta en la competición.
+3.	Se crea un map sin ordenar con los valores del vector score.
+4.	Se ordena el arreglo `score`.
+5.	Se itera sobre el arreglo ordenados de `score` y con ayuda del map se guarda el ranking de cada atleta en el orden que fue recibido el arreglo `score` en un nuevo arreglo `respuesta`.
+6.	Al finalizar la función `findRelativeRanks`, se devuelve el resultado del vector `respuesta`.
+
+![image](https://github.com/carl0s25/TallerEstructurasdeDatosAvanzadas/assets/56564351/55184eb0-d441-423b-8183-cece8c3a6477)
+
+
