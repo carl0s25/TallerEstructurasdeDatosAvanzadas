@@ -94,7 +94,8 @@
 6.	El bucle continúa hasta que se encuentre el nodo de destino o hasta que se hayan examinado todos los nodos en el árbol original.
 7.	Si no se encuentra el nodo de destino después de examinar todos los nodos, se devuelve un puntero nulo.
 
-![image](https://github.com/carl0s25/TallerEstructurasdeDatosAvanzadas/assets/56564351/50a90145-1ddc-40c8-9359-90aeb9511a99)
+![Screenshot 2023-05-22 232814](https://github.com/carl0s25/TallerEstructurasdeDatosAvanzadas/assets/112567186/6d3cf6cb-3ffb-4a53-9ead-1c66bbd32882)
+
 
 ------------------------------------------
 
