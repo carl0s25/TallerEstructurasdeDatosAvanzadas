@@ -3,6 +3,7 @@
 #include <cstdlib>
 #include <fstream>
 #include <unordered_map>
+#include <algorithm>
 #include <ctime>
 using namespace std;
 
