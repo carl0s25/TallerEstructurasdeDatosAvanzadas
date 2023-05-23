@@ -8,7 +8,7 @@
 
 - [@Oscar Bayona](https://www.github.com/OscarBayona)
 
-- [@Dtr1gos18](https://www.github.com/Dtr1gos18)
+- [@Diego Trigos](https://www.github.com/Dtr1gos18)
 
 
 ## 2. Explicación paso a paso: ![Explicación](https://img.shields.io/badge/Explicacion-green)
