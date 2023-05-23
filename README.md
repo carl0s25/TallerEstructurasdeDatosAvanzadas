@@ -10,6 +10,8 @@
 
 - [@Jhonny Guarin](https://www.github.com/JhonnyGCH)
 
+## 2. Explicación paso a paso: ![Explicación](https://img.shields.io/badge/explicacion-green)
+
 - Complete Binary Tree Inserter
 1. La clase `CBTInserter` se utiliza para insertar un nuevo nodo en un árbol binario completo y mantenerlo completo después de la inserción.
 2. En el constructor `CBTInserter`, se recibe el nodo raíz del árbol binario completo y se inicializa la cola `treeQueue` para realizar un recorrido de nivel del árbol.
